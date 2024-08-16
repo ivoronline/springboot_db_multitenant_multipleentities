@@ -11,9 +11,12 @@ import lombok.NoArgsConstructor;
 @Entity
 @Table(schema = "SCHEMA2", name = "PERSON")
 public class Person2 {
+
+  //PROPERTIES
   @Id
   @GeneratedValue(strategy = GenerationType.IDENTITY)
   public Integer Id;
   public String  name;
   public Integer age;
+  
 }
